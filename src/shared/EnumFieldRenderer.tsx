@@ -24,7 +24,7 @@ const EnumFieldRenderer = ({ label, description, data, schema }: ControlProps) =
               </span>
             ))
           ) : (
-            <span className="badge bg-secondary rounded-pill">
+            <span className="badge bg-secondary rounded-pill" >
               Not selected
             </span>
           )}
